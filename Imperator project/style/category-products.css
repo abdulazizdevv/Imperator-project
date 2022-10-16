@@ -1,1 +1,115 @@
 @import "main.css";
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.inb {
+    display: inline-block;
+}
+
+section {
+    background: #E5E5E5;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header-bottom {
+    color: #000000;
+}
+
+
+.txt-filter {
+    display: inline-block;
+    font-size: 30px;
+    line-height: 32px;
+    margin-top: 30px;
+    padding: 16px 170px 16px 16px;
+    background-color: white;
+    border-bottom: 1px solid #E5E5E5;
+}
+
+.Category-txt-link {
+    color: #000000;
+    background-color: white;
+    border-bottom: 1px solid #E5E5E5;
+    font-weight: 400;
+
+}
+
+.category-txt {
+    color: #000000;
+    padding: 8px 178px 12px 16px;
+}
+
+.triangle-bottom {
+    width: 7px;
+    height: 4.8px;
+}
+
+.gender-link {
+    display: inline-block;
+    background-color: white;
+    border-bottom: 1px solid #E5E5E5;
+}
+
+.gender-txt {
+    display: inline-block;
+    padding: 8px 189px 12px 16px;
+}
+
+.price-txt {
+    display: inline-block;
+    padding: 8px 206px 12px 16px
+}
+
+.clean-filter-txt {
+    display: inline-block;
+    padding: 10px 96px;
+    background-color: #ffc000;
+}
+
+.products {
+    display: inline-block;
+}
+
+@media screen and (max-width=300px) {
+    .filters-link div {
+        width: 100%;
+    }
+
+    section {
+        width: 250px;
+    }
+}
+
+
+.vertcal {
+    vertical-align: middle;
+    padding-right: 100px;
+}
+.filters-link {
+    /* position: relative; */
+    display: inline-block;
+    position: absolute;
+}
+.div-9photo {
+    margin-left: 300px;
+    margin-top: 30px;
+display: inline-block;
+}
+@media screen and (max-width=600px) {
+    section {
+        box-sizing: border-box;
+        width: 500px;
+    }
+}
+@media screen and (max-width=600px) {
+    .div-9photo {
+        margin: 0px;
+
+    }
+}
