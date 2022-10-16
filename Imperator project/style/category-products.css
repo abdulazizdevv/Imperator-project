@@ -86,7 +86,12 @@ a {
     }
 }
 
-
+@media screen and (max-width=600px) {
+    section {
+        box-sizing: border-box;
+        width: 500px;
+    }
+}
 .vertcal {
     vertical-align: middle;
     padding-right: 100px;
@@ -94,22 +99,8 @@ a {
 .filters-link {
     /* position: relative; */
     display: inline-block;
-    position: absolute;
 }
 .div-9photo {
-    margin-left: 300px;
-    margin-top: 30px;
-display: inline-block;
-}
-@media screen and (max-width=600px) {
-    section {
-        box-sizing: border-box;
-        width: 500px;
-    }
-}
-@media screen and (max-width=600px) {
-    .div-9photo {
-        margin: 0px;
 
-    }
+    margin-bottom: 200px;
 }
