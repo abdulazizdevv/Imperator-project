@@ -1,6 +1,11 @@
 /* header and footer */
 
 /* .card  */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Poppins:wght@400;500;700;800&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Montserrat:wght@400;500;600;700&family=Poppins:wght@400;500;700;800&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Montserrat:wght@400;500;600;700&family=Open+Sans:wght@400;700&family=Poppins:wght@400;500;700;800&display=swap');
 
 * {
   padding: 0;
@@ -9,6 +14,7 @@
 }
 
 :root {
+  --main-header: #0D0D0D;
   --main-color: #ffc000;
 }
 
@@ -18,6 +24,71 @@
   padding-left: 15px;
   padding-right: 15px;
 }
+
+.main_header {
+  background-color: var(--main-header);
+  /* display: flex; */
+  align-items: center;
+  height: 40px;
+}
+
+.ru {
+  margin-left: 145px;
+  padding-top: 13px;
+  color: #fff;
+}
+
+.uz {
+  color: rgba(255, 255, 255, 0.3);
+}
+nav{
+  display: flex;
+  align-items: center;
+}
+.logo{
+  margin-left: 145px;
+}
+
+.nav_link {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  margin-left: 98px;
+  gap: 24px;
+}
+
+.list_item {
+  display: flex;
+}
+
+.list_item,
+a {
+  color: black;
+  list-style: none;
+  text-decoration: none;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 140%;
+}
+
+.second_link {
+  display: flex;
+  gap: 35px;
+  align-items: center;
+  margin-left: 223px;
+
+}
+.three_link{
+
+}
+.three_link,
+a {
+  list-style: none;
+  text-decoration: none;
+}
+
 
 /* first-desktop */
 
