@@ -26,6 +26,11 @@
   padding-left: 15px;
   padding-right: 15px;
 }
+header{
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+}
 
 .main_header {
   background-color: var(--main-header);
