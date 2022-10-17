@@ -28,6 +28,8 @@
 }
 
 header {
+  background-color: #fff;
+  z-index: 2;
   position: sticky;
   position: -webkit-sticky;
   top: 0;
@@ -137,11 +139,6 @@ a {
 
 footer {
   max-height: 323px;
-<<<<<<< HEAD:Imperator project/style/main.css
-  margin-top: 60px;
-=======
-  margin-top: 40px;
->>>>>>> d03f8275088ed943614b71998f0ff06cc4cc396e:style/main.css
 }
 
 
