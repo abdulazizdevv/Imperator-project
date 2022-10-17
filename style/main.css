@@ -50,16 +50,19 @@ header {
   color: rgba(255, 255, 255, 0.3);
 }
 
-header {
+.navs {
   box-shadow: 0 15px 10px 0 rgba(0, 0, 0, 0.2);
 }
-svg{
-  width: 30px;
+
+svg {
+  width: 50px;
 }
-.fa-bars{
+
+.fa-bars {
   display: flex;
   align-items: center;
-  margin-left: 15px;
+  /* margin-left: 15px; */
+  padding-right: 15px;
   margin-top: 20px;
 }
 
@@ -419,9 +422,31 @@ footer {
   .line {
     display: block;
   }
-  .fa-bars{
+
+  .fa-bars {
     display: block;
   }
+
+  .logo {
+    display: none;
+  }
+
+  .once {
+    display: none;
+
+  }
+
+  .twice {
+    display: none;
+  }
+
+  .cart {
+    margin-left: 200px;
+  }
+  .navs{
+   box-shadow: none;
+  }
+
 }
 
 @media screen and (min-width: 600px) {
@@ -436,7 +461,12 @@ footer {
   .end {
     display: none;
   }
-  .fa-bars{
+
+  .fa-bars {
+    display: none;
+  }
+
+  .logomobile {
     display: none;
   }
 }
@@ -445,7 +475,5 @@ footer {
   .container {
     max-width: 950px;
   }
-  /* .fa-bars{
-    display: none;
-  } */
+
 }
