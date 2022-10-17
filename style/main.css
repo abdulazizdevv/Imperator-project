@@ -17,13 +17,20 @@
   --main-header: #0D0D0D;
   --main-color: #ffc000;
   --back-color: #FAFAFA;
+  --section-color: #0C0A27;
 }
 
 .container {
-  max-width: 1440px;
+  max-width: 1400px;
   margin: 0 auto;
   padding-left: 15px;
   padding-right: 15px;
+}
+
+header {
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
 }
 
 .main_header {
@@ -41,6 +48,22 @@
 
 .uz {
   color: rgba(255, 255, 255, 0.3);
+}
+
+.navs {
+  box-shadow: 0 15px 10px 0 rgba(0, 0, 0, 0.2);
+}
+
+svg {
+  width: 50px;
+}
+
+.fa-bars {
+  display: flex;
+  align-items: center;
+  /* margin-left: 15px; */
+  padding-right: 15px;
+  margin-top: 20px;
 }
 
 nav {
@@ -84,7 +107,7 @@ a {
   display: flex;
   gap: 35px;
   align-items: center;
-  margin-left: 363px;
+  margin-left: 353px;
 }
 
 .three_link,
@@ -114,7 +137,11 @@ a {
 
 footer {
   max-height: 323px;
+<<<<<<< HEAD:Imperator project/style/main.css
   margin-top: 60px;
+=======
+  margin-top: 40px;
+>>>>>>> d03f8275088ed943614b71998f0ff06cc4cc396e:style/main.css
 }
 
 
@@ -162,11 +189,11 @@ footer {
 }
 
 
-.line {
-  width: 500px;
+/* .line {
+  max-width: 500px;
   height: 1px;
   background-color: black;
-}
+} */
 
 
 .footers {
@@ -368,7 +395,7 @@ footer {
 
 @media screen and (max-width: 600px) {
   .container {
-    max-width: 550px;
+    max-width: 500px;
   }
 
   .nav_link {
@@ -399,6 +426,31 @@ footer {
   .line {
     display: block;
   }
+
+  .fa-bars {
+    display: block;
+  }
+
+  .logo {
+    display: none;
+  }
+
+  .once {
+    display: none;
+
+  }
+
+  .twice {
+    display: none;
+  }
+
+  .cart {
+    margin-left: 160px;
+  }
+  .navs{
+   box-shadow: none;
+  }
+
 }
 
 @media screen and (min-width: 600px) {
@@ -409,14 +461,23 @@ footer {
   .mobile {
     display: none;
   }
-  .end{
+
+  .end {
     display: none;
   }
 
+  .fa-bars {
+    display: none;
+  }
+
+  .logomobile {
+    display: none;
+  }
 }
 
 @media screen and (max-width: 1000px) {
   .container {
     max-width: 950px;
   }
+
 }
