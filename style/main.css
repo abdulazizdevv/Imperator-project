@@ -21,12 +21,13 @@
 }
 
 .container {
-  max-width: 1300px;
+  max-width: 1400px;
   margin: 0 auto;
   padding-left: 15px;
   padding-right: 15px;
 }
-header{
+
+header {
   position: sticky;
   position: -webkit-sticky;
   top: 0;
@@ -47,6 +48,19 @@ header{
 
 .uz {
   color: rgba(255, 255, 255, 0.3);
+}
+
+header {
+  box-shadow: 0 15px 10px 0 rgba(0, 0, 0, 0.2);
+}
+svg{
+  width: 30px;
+}
+.fa-bars{
+  display: flex;
+  align-items: center;
+  margin-left: 15px;
+  margin-top: 20px;
 }
 
 nav {
@@ -120,7 +134,7 @@ a {
 
 footer {
   max-height: 323px;
-  margin-top: 40px; 
+  margin-top: 40px;
 }
 
 
@@ -405,6 +419,9 @@ footer {
   .line {
     display: block;
   }
+  .fa-bars{
+    display: block;
+  }
 }
 
 @media screen and (min-width: 600px) {
@@ -419,11 +436,16 @@ footer {
   .end {
     display: none;
   }
-
+  .fa-bars{
+    display: none;
+  }
 }
 
 @media screen and (max-width: 1000px) {
   .container {
     max-width: 950px;
   }
+  /* .fa-bars{
+    display: none;
+  } */
 }
