@@ -185,11 +185,11 @@ footer {
 }
 
 
-.line {
-  max-width: 550px;
+/* .line {
+  max-width: 500px;
   height: 1px;
   background-color: black;
-}
+} */
 
 
 .footers {
@@ -391,7 +391,7 @@ footer {
 
 @media screen and (max-width: 600px) {
   .container {
-    max-width: 550px;
+    max-width: 500px;
   }
 
   .nav_link {
@@ -441,7 +441,7 @@ footer {
   }
 
   .cart {
-    margin-left: 200px;
+    margin-left: 160px;
   }
   .navs{
    box-shadow: none;
