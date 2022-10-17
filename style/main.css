@@ -186,7 +186,7 @@ footer {
 
 
 .line {
-  width: 500px;
+  max-width: 550px;
   height: 1px;
   background-color: black;
 }
