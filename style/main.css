@@ -391,7 +391,7 @@ footer {
 
 @media screen and (max-width: 600px) {
   .container {
-    max-width: 500px;
+    max-width: 550px;
   }
 
   .nav_link {
@@ -443,8 +443,9 @@ footer {
   .cart {
     margin-left: 160px;
   }
-  .navs{
-   box-shadow: none;
+
+  .navs {
+    box-shadow: none;
   }
 
 }
