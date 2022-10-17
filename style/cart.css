@@ -1,10 +1,168 @@
 @import "main.css";
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
 .container {
     margin: 0 auto;
     max-width: 1440px;
+}
+
+.hero {
+    background: #E5E5E5;
+}
+
+.hoodie-text {
+    display: inline-block;
+    margin-left: 300px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 140%;
+    color: #040921;
+}
+
+.hoodie-image {
+    position: absolute;
+}
+
+.image-X {
+    width: 10px;
+    margin-left: 500px;
+}
+
+.lorem-mens {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 160%;
+    margin-left: 300px;
+    margin-top: 50px;
+}
+
+.inb {
+
+    display: inline-block;
+}
+
+.money {
+    margin-left: 300px;
+    margin-top: 60px;
+}
+
+.size-txt {
+    margin-left: 30px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.size-number {
+    margin-left: 10px;
+}
+
+.mens-calc {
+    position: absolute;
+    margin-left: 500px;
+    margin-top: 50px;
+}
+
+.box-first {
+    padding-top: 100px;
+}
+
+.box-two {
+    margin-top: 60px;
+}
+
+.total-price {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.total-price-number {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+}
+
+.box-second {
+    padding-bottom: 40px;
+}
+
+.submit-delivery {
+    text-decoration: none;
+    color: #000;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 140%;
+    letter-spacing: 0.75px;
+    text-transform: uppercase;
+    color: #0D0D0D;
+    padding: 18px 100px;
+    background-color: #FFC000;
+    margin-left: 700px;
+    text-align: center;
+}
+
+.Similar-products-sec {
+    background: #E5E5E5;
+}
+
+.Similar-products-txt {
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 140%;
+    text-align: center;
+}
+
+.p-lorem {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 140%;
+    letter-spacing: 0.75px;
+    width: 245px;
+    text-transform: uppercase;
+}
+
+.blue-mens {
+    width: 264px;
+    height: 300px;
+}
+
+.p2-lorem {
+    width: 240px;
+
+}
+    .box-addtobasket {
+        display: inline-block;
+        border-radius: 12px;
+
+        background-color: white;
+    }
+.stars-mens {
+    vertical-align: middle;
+}
+
+.yevro {
+    display: inline-block;
+    font-weight: 700;
+    font-size: 10px;
+    vertical-align: middle;
+    line-height: 140%;
+    margin-left: 120px;
+}
+
+.basket-button {
+    padding: 10px 64px;
+    font-weight: 600;
+    display: inline-block;
+    border-radius: 6px;
+    font-size: 14px;
+    text-decoration: none;
+    color: #000;
+    background-color: #FFC000;
+    line-height: 140%;
 }
