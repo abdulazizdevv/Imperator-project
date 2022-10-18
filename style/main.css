@@ -218,9 +218,10 @@ footer {
 
 
 .footers {
+  padding-top: 46px;
   display: flex;
-  gap: 29px;
-  justify-content: center;
+  gap: 35px;
+  /* justify-content: center; */
 }
 
 .pro {
