@@ -1,75 +1,115 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Product</title>
   <link rel="stylesheet" href="./style/product.css">
-  <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" /> -->
 </head>
+
 <body>
-
-
-  <header>
-    <div class="main_header">
+  <header class="header headr--open">
+    <div class="main_header ">
       <p class="ru container">RU <span class="uz container">UZB</span></p>
     </div>
-    <div class="container">
-      <nav>
-        <a href="#"><img class="logo" src="./images/logo.png" alt="logo"></a>
-        <ul class="nav_link">
-          <li class="list_item"><a href="#"> Главная</a></li>
-          <li class="list_item"><a href="#"> О нас</a></li>
-          <li class="list_item"><a href="#"> Категории</a></li>
-          <li class="list_item"><a href="#"> Сотрудничество</a></li>
-        </ul>
-        <div>
-          <ul class="second_link">
-            <li class="three_link sign"><a href="#"> Войти</a></li>
-            <li class="three_link register"><a href="#"> Зарегистрироваться</a></li>
-            <li class="three_link"><a href="#"><img src="./images/bascet.png" alt="cart"></a></li>
-          </ul>
+    <div class="navs">
+      <div class="container header_container  ">
+        <div class="logo_container">
+          <button class="toggle"></button>
+          <a class="logomobile" href="#">
+            <img src="./images/flogo.png" alt="logo">
+          </a>
+          <a class="logo" href="#">
+            <img class="logo_img" src="./images/MILANDI.png" alt="Pixer logo">
+          </a>
         </div>
-      </nav>
+
+
+        <nav class="sitenav">
+          <ul class="sitenav_list">
+            <li class="sitenav_item">
+              <a class="sitenav_link" href="index.html">Главная</a>
+            </li>
+            <li class="sitenav_item">
+              <a class="sitenav_link" href="about.html">О нас</a>
+            </li>
+            <li class="sitenav_item">
+              <a class="sitenav_link" href="categories.html">Категории</a>
+            </li>
+            <li class="sitenav_item">
+              <a class="sitenav_link" href="product.html">Сотрудничество</a>
+            </li>
+
+            </li>
+          </ul>
+
+          <ul class="sitenav_btns">
+            <li>
+              <a class="sign" href="#">Войти</a>
+            </li>
+            <li>
+              <a class="sign sign-up" href="#">Зарегистрироваться</a>
+            </li>
+          </ul>
+
+        </nav>
+
+        <button class="shop_btn"></button>
+      </div>
     </div>
   </header>
 
-
   <main>
     <div class="container">
-      <div>
-        <div>
-          <img src="" alt="">
+      <div class="section-1">
+        <div class="post-1">
+          <img class="big-img" src="./images/image-mens-product-blue.png" alt="">
           <div>
-            <img src="" alt="">
-            <img src="" alt="">
-            <img src="" alt="">
-            <img src="" alt="">
-            <i class="fa-regular fa-star"></i>
+            <img class="smal-img" src="./images/image-mens-product-blue.png" alt="">
+            <img class="smal-img" src="./images/image-mens-product-blue.png" alt="">
+            <img class="smal-img" src="./images/image-mens-product-blue.png" alt="">
+            <img class="smal-img" src="./images/image-mens-product-blue.png" alt="">
           </div>
         </div>
-        <div>
+        <div class="post-2">
           <h2>Lorem ipsum dolor sit amet</h2>
           <img src="./images/stars.svg" alt="">
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam faucibus porttitor rutrum at tellus sodales libero. Eleifend non.</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam faucibus porttitor rutrum at tellus
+            sodales libero. Eleifend non.</p>
           <span>More...</span>
-          <p>855 у.е.</p>
+          <p>
+            <b class="sena">
+              855 у.е.
+            </b>
+          </p>
           <p>Size</p>
           <ul>
-            <li>28</li>
-            <li>30</li>
-            <li>32</li>
-            <li>34</li>
-            <li>36</li>
+            <li>
+              <b>28</b>
+            </li>
+            <li>
+              <b>30</b>
+            </li>
+            <li>
+              <b>32</b></li>
+            <li>
+              <b>34</b>
+            </li>
+            <li>
+              <b>36</b>
+            </li>
           </ul>
+          <br>
           <form action="">
-            <button>Добавить в корзину</button>
+            <button class="yellov">Добавить в корзину</button>
+            <br>
             <br>
             <button>Быстрая покупка</button>
           </form>
           <h3>Преимущества</h3>
-          <div>
+          <div class="icons">
             <div>
               <i></i>
               <span>Delivery in 7 days</span>
@@ -89,68 +129,81 @@
           </div>
         </div>
       </div>
-      <h2>Похожие товары</h2>
-      <div>
-        <div>
-          <img src="./images/image 29.png" alt="">
-          <p>Lorem ipsum dolor sit amet</p>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit sed odio sed nascetur.</p>
-          <img src="./images/stars.svg" alt="">
-          <span>855 у.е.</span>
-          <form action="">
-            <button>Добавить в корзину</button>
-          </form>
-        </div>
-        <div>
-          <img src="./images/image 29.png" alt="">
-          <p>Lorem ipsum dolor sit amet</p>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit sed odio sed nascetur.</p>
-          <img src="./images/stars.svg" alt="">
-          <span>855 у.е.</span>
-          <form action="">
-            <button>Добавить в корзину</button>
-          </form>
-        </div>
-        <div>
-          <img src="./images/image 29.png" alt="">
-          <p>Lorem ipsum dolor sit amet</p>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit sed odio sed nascetur.</p>
-          <img src="./images/stars.svg" alt="">
-          <span>855 у.е.</span>
-          <form action="">
-            <button>Добавить в корзину</button>
-          </form>
-        </div>
-        <div>
-          <img src="./images/image 29.png" alt="">
-          <p>Lorem ipsum dolor sit amet</p>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit sed odio sed nascetur.</p>
-          <img src="./images/stars.svg" alt="">
-          <span>855 у.е.</span>
-          <form action="">
-            <button>Добавить в корзину</button>
-          </form>
-        </div>
+
+      <div class="title2">
+        <h2>Похожие товары</h2>
       </div>
-      
-      <h2>Лучшие категории</h2>
-      <div>
-        <div>
-          <img src="./images/image 26.png" alt="">
+      <div class="post-3">
+        <a href="#">
+          <img class="color-men" src="./images/image-mens-product-blue.png" alt="">
+          <p>Lorem ipsum dolor sit amet</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit sed odio sed nascetur.</p>
+          <img class="star-img" src="./images/stars.svg" alt="">
+          <span>
+            <b>855 у.е.</b>
+          </span>
+          <form action="">
+            <button>Добавить в корзину</button>
+          </form>
+        </a>
+        <a href="#">
+          <img class="color-men" src="./images/image-mens-product-white.png" alt="">
+          <p>Lorem ipsum dolor sit amet</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit sed odio sed nascetur.</p>
+          <img class="star-img" src="./images/stars.svg" alt="">
+          <span>
+            <b>855 у.е.</b>
+          </span>
+          <form action="">
+            <button>Добавить в корзину</button>
+          </form>
+        </a>
+        <a href="#">
+          <img class="color-men" src="./images/image-mens-product-orange.png" alt="">
+          <p>Lorem ipsum dolor sit amet</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit sed odio sed nascetur.</p>
+          <img class="star-img" src="./images/stars.svg" alt="">
+          <span>
+            <b>855 у.е.</b>
+          </span>
+          <form action="">
+            <button>Добавить в корзину</button>
+          </form>
+        </a>
+        <a href="#">
+          <img class="color-men" src="./images/image-mens-product-black.png" alt="">
+          <p>Lorem ipsum dolor sit amet</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit sed odio sed nascetur.</p>
+          <img class="star-img" src="./images/stars.svg" alt="">
+          <span>
+            <b>855 у.е.</b>
+          </span>
+          <form action="">
+            <button>Добавить в корзину</button>
+          </form>
+        </a>
+      </div>
+
+      <div class="title2">
+        <h2>Лучшие категории</h2>
+      </div>
+      <div class="post-4">
+        <a href="#">
+          <img src="./images/image 21.png" alt="">
           <p>Women’s wear</p>
-        </div>
-        <div>
-          <img src="./images/image 26.png" alt="">
-          <p>Women’s wear</p>
-        </div>
-        <div>
-          <img src="./images/image 26.png" alt="">
-          <p>Women’s wear</p>
-        </div>
-        <div>
-          <img src="./images/image 26.png" alt="">
-          <p>Women’s wear</p>
-        </div>
+        </a>
+        <a href="#">
+          <img src="./images/image 23.png" alt="">
+          <p>Men’s wear</p>
+        </a>
+        <a href="#">
+          <img src="./images/image 24.png" alt="">
+          <p>Kid’s wear</p>
+        </a>
+        <a href="#">
+          <img src="./images/image 25.png" alt="">
+          <p>Shoes</p>
+        </a>
       </div>
     </div>
   </main>
@@ -217,4 +270,5 @@
     </div>
   </footer>
 </body>
+
 </html>

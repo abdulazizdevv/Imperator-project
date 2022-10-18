@@ -1,1 +1,144 @@
 @import "main.css";
+* {
+    font-family: 'Montserrat';
+}
+a {
+    text-decoration: none;
+}
+
+.section-1 {
+    display: flex;
+    margin: 100px 0;
+    flex-wrap: wrap;
+}
+.post-1 {
+    width: 460px;
+}
+.post-1 .big-img {
+    width: 460px;
+    height: 460px;
+    
+}
+.post-1 div {
+    display: flex;
+    justify-content: space-between;
+}
+.smal-img {
+    width: 105px;
+    height: 105px;
+}
+.post-2 {
+    width: 500px;
+    margin: 10px 200px;
+}
+.post-2 h2 {
+    font-size: 34px;
+    margin: 1px 0;
+}
+.post-2 img {
+    width: 100px;
+    height: 20px;
+    margin: 10px 0;
+}
+.post-2 p {
+    font-size: 15px;
+    margin: 10px 0;
+}
+.sena {
+    font-size: 30px;
+}
+.post-2 ul {
+    display: flex;
+    list-style-type: none;
+}
+.post-2  li{
+    margin-right: 10px;
+    border: 1px solid #DBDEE7;
+    padding: 10px;
+    border-radius: 5px;
+}
+.post-2 button {
+    width: 370px;
+    height: 40px;
+    border: none;
+}
+.yellov {
+    background-color: #FFC000;
+}
+h3 {
+    font-size: 25px;
+    margin: 20px 0;
+}
+.icons {
+    display: flex;
+    flex-wrap: wrap;
+    width: 400px;
+}
+.icons div {
+    margin: 10px 0;
+    width: 200px;
+}
+.title2 {
+    margin: 50px 0;
+    font-size: 30px;
+    text-align: center;
+}
+.post-3, .post-4 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.post-3 a {
+    width: 265px;
+    height: 520px;
+    color: #000;
+}
+.post-3 p, .post-3 button {
+    margin: 5px 0;
+}
+.post-3 button {
+    width: 240px;
+    border: none;
+    padding: 5px;
+    background-color: #FFC000;
+}
+.post-3 span {
+    margin: 5px 0 5px 80px;
+    display: inline-block;
+}
+.color-men {
+    width: 265px;
+    height: 337px;
+}
+.post-4 {
+    text-align: center;
+    margin: 100px 0 100px;
+}
+.post-4 img {
+    width: 270px;
+}
+.post-4 p {
+    color: black;
+    margin: 20px;
+    font-size: 25px;
+}
+@media only screen and (max-width: 700px) {
+    .post-1, .post-2, .post-3, .post-4 { 
+        text-align: center;
+    }
+    .post-1 {
+        width: 350px;
+    }
+    .post-1 .big-img {
+        width: 350px;
+        height: 350px;
+        
+    }
+    .post-1 div {
+        display: none;
+    }
+    .post-2 {
+        width: 350px;
+        margin: 50px 0;
+    }
+}
