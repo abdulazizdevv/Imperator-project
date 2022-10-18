@@ -92,34 +92,28 @@ a {
         width: 500px;
     }
 }
-
 .vertcal {
     vertical-align: middle;
     padding-right: 100px;
 }
-
 .filters-link {
     position: absolute;
     display: inline-block;
 }
-
 .div-9photo {
     margin-left: 400px;
     margin-top: 30px;
     margin-bottom: 90px;
 }
-
 .none {
     display: none;
 
 }
-
 @media screen and (max-width:730px) {
     .div-9photo {
-        margin-left: 0px;
-        margin-top: 300px;
+    margin-left: 0px;
+    margin-top: 300px;
     }
-
     .none {
         display: inline-block;
     }
