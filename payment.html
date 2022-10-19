@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,221 +8,83 @@
   <title>Payment</title>
   <link rel="stylesheet" href="./style/main.css">
   <link rel="stylesheet" href="./style/payment.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<style>
-body {
-  font-family: Arial;
-  font-size: 17px;
-  padding: 8px;
-}
-
-* {
-  box-sizing: border-box;
-}
-
-.row {
-  display: -ms-flexbox; /* IE10 */
-  display: flex;
-  -ms-flex-wrap: wrap; /* IE10 */
-  flex-wrap: wrap;
-  margin: 0 -16px;
-}
-
-.col-25 {
-  -ms-flex: 25%; /* IE10 */
-  flex: 25%;
-}
-
-.col-50 {
-  -ms-flex: 50%; /* IE10 */
-  flex: 50%;
-}
-
-.col-75 {
-  -ms-flex: 75%; /* IE10 */
-  flex: 75%;
-}
-
-.col-25,
-.col-50,
-.col-75 {
-  padding: 0 16px;
-}
-
-.container {
-  background-color: #f2f2f2;
-  padding: 5px 20px 15px 20px;
-  border: 1px solid lightgrey;
-  border-radius: 3px;
-}
-
-input[type=text] {
-  width: 100%;
-  margin-bottom: 20px;
-  padding: 12px;
-  border: 1px solid #ccc;
-  border-radius: 3px;
-}
-
-label {
-  margin-bottom: 10px;
-  display: block;
-}
-
-.icon-container {
-  margin-bottom: 20px;
-  padding: 7px 0;
-  font-size: 24px;
-}
-
-.btn {
-  background-color: #04AA6D;
-  color: white;
-  padding: 12px;
-  margin: 10px 0;
-  border: none;
-  width: 100%;
-  border-radius: 3px;
-  cursor: pointer;
-  font-size: 17px;
-}
-
-.btn:hover {
-  background-color: #45a049;
-}
-
-a {
-  color: #2196F3;
-}
-
-hr {
-  border: 1px solid lightgrey;
-}
-
-span.price {
-  float: right;
-  color: grey;
-}
-
-/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other (also change the direction - make the "cart" column go on top) */
-@media (max-width: 800px) {
-  .row {
-    flex-direction: column-reverse;
-  }
-  .col-25 {
-    margin-bottom: 20px;
-  }
-}
-</style>
 </head>
+
 <body>
-  
-  <header>
-    <div class="main_header">
+
+  <header class="header headr--open">
+    <div class="main_header ">
       <p class="ru container">RU <span class="uz container">UZB</span></p>
     </div>
     <div class="navs">
-      <div class="container">
-        <nav class="box1">
-          <a href="#"><i class="fa-solid fa-bars">
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
-                <!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
-                <path
-                  d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z" />
-                </svg></i></a>
-          <a href="#"><img class="logo" src="./images/logo.png" alt="logo"></a>
-          <a href="#"><img class="logomobile" src="./images/flogo.png" alt="logo"></a>
-          <ul class="nav_link">
-            <li class="list_item"><a href="index.html"> Главная</a></li>
-            <li class="list_item"><a href="about.html"> О нас</a></li>
-            <li class="list_item"><a href="categories.html"> Категории</a></li>
-            <li class="list_item"><a href="product.html"> Сотрудничество</a></li>
+      <div class="container header_container  ">
+        <div class="logo_container">
+          <button class="toggle"></button>
+          <a class="logomobile" href="#">
+            <img src="./images/flogo.png" alt="logo">
+          </a>
+          <a class="logo" href="#">
+            <img class="logo_img" src="./images/MILANDI.png" alt="Pixer logo">
+          </a>
+        </div>
+
+
+        <nav class="sitenav">
+          <ul class="sitenav_list">
+            <li class="sitenav_item">
+              <a class="sitenav_link" href="index.html">Главная</a>
+            </li>
+            <li class="sitenav_item">
+              <a class="sitenav_link" href="about.html">О нас</a>
+            </li>
+            <li class="sitenav_item">
+              <a class="sitenav_link" href="categories.html">Категории</a>
+            </li>
+            <li class="sitenav_item">
+              <a class="sitenav_link" href="product.html">Сотрудничество</a>
+            </li>
+
+            </li>
           </ul>
-          <div>
-            <ul class="second_link">
-              <li class="three_link once sign"><a href="#"> Войти</a></li>
-              <li class="three_link twice register"><a href="#"> Зарегистрироваться</a></li>
-              <li class="three_link cart"><a href="#"><img src="./images/bascet.png" alt="cart"></a></li>
-            </ul>
-          </div>
+
+          <ul class="sitenav_btns">
+            <li>
+              <a class="sign" href="#">Войти</a>
+            </li>
+            <li>
+              <a class="sign sign-up" href="#">Зарегистрироваться</a>
+            </li>
+          </ul>
+
         </nav>
+
+        <button class="shop_btn"></button>
       </div>
     </div>
   </header>
   <main>
-
-    
-<h2>Отзывчивая форма оформления заказа</h2>
-<p>Измените размер окна браузера, чтобы увидеть эффект. Когда ширина экрана меньше 800 пикселей, расположите два столбца друг над другом, а не рядом друг с другом.</p>
-<div class="row">
-  <div class="col-75">
-    <div class="container">
-      <form action="/action_page.php">
-      
-        <div class="row">
-          <div class="col-50">
-            <h3>Адрес для выставления счета</h3>
-            <label for="fname"><i class="fa fa-user"></i> ФИО</label>
-            <input type="text" id="fname" name="firstname" placeholder="John M. Doe">
-            <label for="email"><i class="fa fa-envelope"></i>Эл. адрес</label>
-            <input type="text" id="email" name="email" placeholder="john@example.com">
-            <label for="adr"><i class="fa fa-address-card-o"></i> Адрес</label>
-            <input type="text" id="adr" name="address" placeholder="542 W. 15th Street">
-            <label for="city"><i class="fa fa-institution"></i> Город</label>
-            <input type="text" id="city" name="city" placeholder="New York">
-
-            <div class="row">
-              <div class="col-50">
-                <label for="state">Состояние</label>
-                <input type="text" id="state" name="state" placeholder="NY">
-              </div>
-              <div class="col-50">
-                <label for="zip">Почтовый индекс</label>
-                <input type="text" id="zip" name="zip" placeholder="10001">
-              </div>
-            </div>
-          </div>
-
-          <div class="col-50">
-            <h3>Оплата</h3>
-            <label for="fname">Принимаемые карты</label>
-            <div class="icon-container">
-              <i class="fa fa-cc-visa" style="color:navy;"></i>
-              <i class="fa fa-cc-amex" style="color:blue;"></i>
-              <i class="fa fa-cc-mastercard" style="color:red;"></i>
-              <i class="fa fa-cc-discover" style="color:orange;"></i>
-            </div>
-            <label for="cname">Имя на карте</label>
-            <input type="text" id="cname" name="cardname" placeholder="John More Doe">
-            <label for="ccnum">Номер кредитной карты</label>
-            <input type="text" id="ccnum" name="cardnumber" placeholder="1111-2222-3333-4444">
-            <label for="expmonth">Месяц опыта</label>
-            <input type="text" id="expmonth" name="expmonth" placeholder="September">
-            <div class="row">
-              <div class="col-50">
-                <label for="expyear">Год опыта</label>
-                <input type="text" id="expyear" name="expyear" placeholder="2018">
-              </div>
-              <div class="col-50">
-                <label for="cvv">CVV</label>
-                <input type="text" id="cvv" name="cvv" placeholder="352">
-              </div>
-            </div>
-          </div>
-          
+    <section class="container">
+      <h1>Оплата</h1>
+      <div class="container pay">
+        <div class="card">
+          <img src="./images/card.png" alt="card">
         </div>
-        <label>
-          <input type="checkbox" checked="checked" name="sameadr"> Адрес доставки совпадает с адресом для выставления счета
-        </label>
-        <input type="submit" value="Continue to checkout" class="btn">
-      </form>
-    </div>
-  </div>
-  <div class="col-25">
-    
-  </div>
-</div>
+        <div class="forms">
+          <form action="#" class="text">
+            <input placeholder="Имя на карте" type="text">
+            <input placeholder="Номер карты" type="text">
+            <label for="day">Cрок хранения</label>
+            <input placeholder="MM/YY" type="date">
+          </form>
+          <a href="#">
+            Оплатить
+          </a>
+        </div>
+      </div>
+    </section>
+
   </main>
+
   <footer>
     <div class="container container2  mobile">
       <p>High fidelity wireframes include more real content, specific typography choices, and information on image.</p>
@@ -233,7 +96,8 @@ span.price {
       <p>Pricing</p>
       <p>Features</p>
     </div>
-    <span class="line"><hr></span>
+    <span class="line">
+      <hr></span>
     <div class="end container">
       <div class="end1">
         <img src="./images/location.png" alt="loaction">
@@ -281,5 +145,7 @@ span.price {
       </div>
     </div>
   </footer>
+  <script src="./js/index.js"></script>
 </body>
+
 </html>

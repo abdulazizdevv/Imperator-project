@@ -4,6 +4,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Montserrat';
 }
 
 .container {
@@ -69,6 +70,8 @@
 }
 
 .box-first {
+    /* display: flex; */
+    flex-direction: column;
     padding-top: 100px;
 }
 
@@ -110,6 +113,13 @@
 .Similar-products-sec {
     background: #E5E5E5;
 }
+.addtobasket-div{
+    padding-top: 32px;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 64px;
+}
+
 
 .Similar-products-txt {
     font-weight: 700;
@@ -136,12 +146,14 @@
     width: 240px;
 
 }
-    .box-addtobasket {
-        display: inline-block;
-        border-radius: 12px;
 
-        background-color: white;
-    }
+.box-addtobasket {
+    display: inline-block;
+    border-radius: 12px;
+
+    background-color: white;
+}
+
 .stars-mens {
     vertical-align: middle;
 }

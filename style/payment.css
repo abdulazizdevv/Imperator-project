@@ -1,1 +1,104 @@
-@import "main.css" ;
+@import "main.css";
+
+body {
+    font-family: 'Montserrat';
+    background-color: #FAFAFA;
+}
+
+.pay {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 152px;
+    justify-content: space-between;
+}
+
+.container h1 {
+    margin-top: 64px;
+    height: 48px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 140%;
+    text-align: center;
+    letter-spacing: 0.25px;
+    color: #000000;
+}
+
+.card img {
+    margin-top: -90px;
+}
+
+.forms {
+    margin-top: -130px;
+    padding-bottom: 64px;
+}
+
+.text {
+    max-width: 460px;
+    gap: 31px;
+    display: flex;
+    flex-direction: column;
+    padding: 35px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    color: #0A0A0A;
+}
+
+input {
+    padding: 20px;
+    outline: none;
+    border: none;
+    width: 460px;
+    height: 60px;
+    background-color: #F1F1F1;
+}
+
+.forms a {
+    text-decoration: none;
+    width: 460px;
+    height: 60px;
+    padding: 15px;
+    background: #FFC000;
+    margin-left: 35px;
+    /* padding: 20px 185px; */
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 140%;
+    letter-spacing: 0.75px;
+    text-transform: uppercase;
+    color: #0D0D0D;
+}
+
+@media only screen and (max-width:600px) {
+
+    .container h1 {
+        margin-left: 35px;
+        text-align: left;
+    }
+    .text{
+        margin-left: -50px;
+    }
+    input {
+        width: 300px;
+        background-color: #fff;
+        border: 1px solid rgb(197, 192, 192);
+    }
+
+    .forms a {
+        width: 300px;
+        margin-left: -20px;
+    }
+
+    .card img {
+        display: none;
+    }
+}

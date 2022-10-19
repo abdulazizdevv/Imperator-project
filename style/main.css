@@ -167,6 +167,7 @@ header {
 /*Footer*/
 
 footer {
+  background-color: #fff;
   max-height: 323px;
 }
 
@@ -223,10 +224,12 @@ footer {
   gap: 29px;
   justify-content: center;
 }
-.mobile{
+
+.mobile {
   margin-top: 46px;
   background-color: #fff;
 }
+
 .pro {
   font-family: 'Montserrat';
   font-style: normal;
@@ -238,7 +241,9 @@ footer {
   font-feature-settings: 'pnum'on, 'lnum'on;
   color: #000000;
 }
-.end{
+
+
+.end {
   background-color: #fff;
 }
 
