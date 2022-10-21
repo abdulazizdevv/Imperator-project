@@ -8,17 +8,15 @@ body {
 
 .yellow {
     margin-top: 10px;
-    max-width: 1600px;
+    width: 100%;
     height: 788px;
     background: linear-gradient(99.05deg, #E1AA00 0%, #FFC000 74.72%);
 }
 
 .black {
-    /* position: absolute; */
     max-width: 1400px;
     height: 396px;
     left: 0px;
-    /* top: 200px; */
     background: #000000;
     margin-top: -610px;
 }
@@ -29,13 +27,11 @@ body {
 
 .nav__1 h1 {
     z-index: 2;
-    /* position: absolute; */
     font-family: "Montserrat";
     max-width: 655px;
     height: 96px;
     color: #ffffff;
     margin-top: -380px;
-    /* padding-top: 246px; */
     padding-left: 95px;
 }
 
@@ -45,7 +41,6 @@ body {
     max-width: 658px;
     height: 60px;
     padding-left: 95px;
-    /* padding-top: 345px; */
     font-size: 14px;
     color: #ffffff;
 }
@@ -66,12 +61,10 @@ body {
 }
 
 .boshqa_sahifa img {
-    /* position: absolute; */
     width: 80px;
     margin-left: 624px;
     margin-top: 405px;
     margin-bottom: 21px;
-    /* position: relative; */
 }
 
 .girls {
@@ -110,9 +103,7 @@ body {
     font-family: "Montserrat";
 }
 
-.px__assosiy {
-    /* width: 1150px; */
-}
+
 
 .a_href__assoaiy_px {
     display: flex;
@@ -166,7 +157,6 @@ body {
 
 .button__10 a {
     color: black;
-    /* padding: 20px; */
     text-decoration: none;
     margin-top: 10px;
     background: #ffc000;
@@ -204,9 +194,22 @@ body {
     margin-bottom: 41px;
 }
 
+.womens:hover {
+    background-color: #000000;
+}
 
+.womens:hover {
+    content: attr(data-hover);
+    visibility: visible;
+    width: max-content;
+    color: #fff;
+    text-align: center;
+    /* border-radius: 5px; */
+    padding: 5px 5px;
+    transition: opacity 1s ease-in-out;
 
-
+ 
+}
 
 
 
@@ -379,7 +382,7 @@ body {
 
 }
 
-#sektion_3  {
+#sektion_3 {
     flex-wrap: wrap;
     display: flex;
     align-items: center;
@@ -467,7 +470,7 @@ body {
 }
 
 @media only screen and (max-width:600px) {
- 
+
     #sektion_4 .chegirma {
         width: 400px;
     }
@@ -484,31 +487,37 @@ body {
     .girls {
         margin-top: -600px;
         margin-right: 10px;
+        /* height: 500px; */
     }
 
-    .left img{
+    .left img {
         max-width: 400px;
     }
-    .heder__1{
+
+    .heder__1 {
         display: flex;
         justify-content: center;
         gap: 15px;
     }
-    .a_href__assoaiy_px{
+
+    .a_href__assoaiy_px {
         display: flex;
         justify-content: center;
         gap: 15px;
     }
-    .kotegoti__assosiy{
+
+    .kotegoti__assosiy {
         display: flex;
         justify-content: center;
         gap: 15px;
     }
-    .linkes{
+
+    .linkes {
         display: flex;
         flex-direction: column;
     }
-    #sektion_1 .left img{
+
+    #sektion_1 .left img {
         margin-left: -30%;
     }
 }

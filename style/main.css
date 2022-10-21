@@ -167,6 +167,7 @@ header {
 /*Footer*/
 
 footer {
+  padding-top: 46px;
   background-color: #fff;
   max-height: 323px;
 }
@@ -229,7 +230,9 @@ footer {
   margin-top: 46px;
   background-color: #fff;
 }
-
+.one{
+  margin-left: -180px;
+}
 .pro {
   font-family: 'Montserrat';
   font-style: normal;
