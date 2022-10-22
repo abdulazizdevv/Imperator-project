@@ -190,6 +190,7 @@ body {
 }
 
 .hash_1 {
+    margin-top: 40px;
     text-align: center;
     margin-bottom: 41px;
 }
@@ -450,7 +451,6 @@ body {
 }
 
 #sektion_4 .chegirma {
-    max-width: 1400px;
     height: 450px;
 
     /* padding: 173px 387px; */
