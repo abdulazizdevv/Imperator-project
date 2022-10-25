@@ -5,7 +5,10 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Montserrat';
+<<<<<<< HEAD
     font-style: normal;
+=======
+>>>>>>> a09682f80364c4799bb0b0b5848a07438e3a2580
 }
 
 .container {
@@ -71,6 +74,8 @@
 }
 
 .box-first {
+    /* display: flex; */
+    flex-direction: column;
     padding-top: 100px;
 }
 
@@ -113,6 +118,13 @@
     padding-bottom: 64px;
     background: #E5E5E5;
 }
+.addtobasket-div{
+    padding-top: 32px;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 64px;
+}
+
 
 .Similar-products-txt {
     font-weight: 700;

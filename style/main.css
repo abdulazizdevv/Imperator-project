@@ -167,6 +167,8 @@ header {
 /*Footer*/
 
 footer {
+  padding-top: 46px;
+  background-color: #fff;
   max-height: 323px;
 }
 
@@ -219,11 +221,19 @@ footer {
 
 .footers {
   padding-top: 46px;
+  background-color: #fff;
   display: flex;
   gap: 35px;
   /* justify-content: center; */
 }
 
+.mobile {
+  margin-top: 46px;
+  background-color: #fff;
+}
+.one{
+  margin-left: -180px;
+}
 .pro {
   font-family: 'Montserrat';
   font-style: normal;
@@ -234,6 +244,11 @@ footer {
   text-transform: uppercase;
   font-feature-settings: 'pnum'on, 'lnum'on;
   color: #000000;
+}
+
+
+.end {
+  background-color: #fff;
 }
 
 .lorem {
