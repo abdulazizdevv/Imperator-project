@@ -236,7 +236,7 @@
 .box-addtobasket {
     display: inline-block;
     border-radius: 12px;
-
+    text-align: center;
     background-color: white;
 }
 
@@ -254,7 +254,7 @@
 }
 
 .basket-button {
-    padding: 10px 64px;
+    padding: 10px 80px;
     font-weight: 600;
     display: inline-block;
     border-radius: 6px;
