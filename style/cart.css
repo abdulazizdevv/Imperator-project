@@ -5,10 +5,6 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Montserrat';
-<<<<<<< HEAD
-    font-style: normal;
-=======
->>>>>>> a09682f80364c4799bb0b0b5848a07438e3a2580
 }
 
 .container {
@@ -110,15 +106,15 @@
     color: #0D0D0D;
     padding: 18px 100px;
     background-color: #FFC000;
-    margin-left: 700px;
-    text-align: center;
+    margin-left: 37%;    text-align: center;
 }
 
 .Similar-products-sec {
     padding-bottom: 64px;
     background: #E5E5E5;
 }
-.addtobasket-div{
+
+.addtobasket-div {
     padding-top: 32px;
     display: flex;
     justify-content: space-between;
@@ -143,7 +139,7 @@
 }
 
 .blue-mens {
-    width: 264px;
+    width: 279px;
     height: 300px;
 }
 
@@ -182,4 +178,116 @@
     color: #000;
     background-color: #FFC000;
     line-height: 140%;
+}
+
+@media (max-width:1195px) {
+    .mens-calc {
+        margin-left: 200px;
+    }
+
+    .blue-mens {
+        width: 279px;
+    }
+
+    .addtobasket-div {
+        flex-wrap: wrap;
+    }
+
+    .image-X {
+        margin-left: 0;
+    }
+
+    .submit-delivery {
+        margin-left: 50px;
+    }
+}
+
+@media screen and (max-width:900px) {
+    .mens-calc {
+        margin-left: 30px;
+    }
+}
+
+@media screen and (max-width:710px) {
+    .lorem-mens {
+        display: none;
+    }
+
+    .money {
+        margin-left: 0px;
+        margin-top: 0;
+        margin-bottom: 50px;
+        vertical-align: middle;
+    }
+
+    .hoodie-image {
+        position: relative;
+        width: 100px;
+    }
+
+    .hoodie-text {
+        position: absolute;
+        margin-left: 0;
+    }
+
+    .size-txt {
+        margin-left: 10px;
+        margin-bottom: 50px;
+        vertical-align: middle;
+    }
+
+    .size-number {
+        margin-bottom: 50px;
+        vertical-align: middle;
+    }
+
+    .mens-calc {
+        margin-left: 0px;
+    }
+
+    .image-X {
+        /* margin-left: 0; */
+        margin-left: 450px;
+        position: absolute;
+        margin-top: 10px;
+    }
+    .addtobasket-div {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+@media screen and (max-width:600px)  {
+    .image-X {
+        display: none;
+    }
+    .size-txt {
+        margin-left: 10px;
+        margin-bottom: 30px;
+        vertical-align: middle;
+    }
+    .size-number {
+        margin-bottom: 30px;
+        vertical-align: middle;
+    }
+    .money {
+        margin-left: 0px;
+        margin-top: 0;
+        margin-bottom: 30px;
+        vertical-align: middle;
+    }
+    .mens-calc {
+        margin-top: 70px;
+    }
+    .images-calc {
+        width: 100px;
+
+    }
+    .all__money {
+        text-align: center;
+    }
+}
+@media screen and (max-width:376px) {
+    .mens-calc {
+display: none;
+    }
 }

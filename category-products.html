@@ -6,33 +6,62 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Category Products</title>
-  <link rel="stylesheet" href="./style/main.css">
   <link rel="stylesheet" href="./style/category-products.css"/>
+  <link rel="stylesheet" href="./style/main.css">
 </head>
 <main>
-  <header>
-    <div class="main_header">
+  <header class="header headr--open">
+    <div class="main_header ">
       <p class="ru container">RU <span class="uz container">UZB</span></p>
     </div>
-    <div class="container">
-      <nav>
-        <a href="#"><img class="logo" src="./images/logo.png" alt="logo"></a>
-        <ul class="nav_link">
-          <li class="list_item"><a href="./index.html"> Главная</a></li>
-          <li class="list_item"><a href="./about.html"> О нас</a></li>
-          <li class="list_item"><a href="categories.html"> Категории</a></li>
-          <li class="list_item"><a href="product.html"> Сотрудничество</a></li>
-        </ul>
-        <div>
-          <ul class="second_link">
-            <li class="three_link sign"><a href="#"> Войти</a></li>
-            <li class="three_link register"><a href="#"> Зарегистрироваться</a></li>
-            <li class="three_link"><a href="#"><img src="./images/bascet.png" alt="cart"></a></li>
-          </ul>
+    <div class="navs">
+      <div class="container header_container  ">
+        <div class="logo_container">
+          <button class="toggle"></button>
+          <a class="logomobile" href="#">
+            <img src="./images/flogo.png" alt="logo">
+          </a>
+          <a class="logo" href="#">
+            <img class="logo_img" src="./images/MILANDI.png" alt="Pixer logo">
+          </a>
         </div>
-      </nav>
+
+
+        <nav class="sitenav">
+          <ul class="sitenav_list">
+            <li class="sitenav_item">
+              <a class="sitenav_link" href="index.html">Главная</a>
+            </li>
+            <li class="sitenav_item">
+              <a class="sitenav_link" href="about.html">О нас</a>
+            </li>
+            <li class="sitenav_item">
+              <a class="sitenav_link" href="categories.html">Категории</a>
+            </li>
+            <li class="sitenav_item">
+              <a class="sitenav_link" href="product.html">Сотрудничество</a>
+            </li>
+
+            </li>
+          </ul>
+
+          <ul class="sitenav_btns">
+            <li>
+              <a class="sign" href="#">Войти</a>
+            </li>
+            <li>
+              <a class="sign sign-up" href="#">Зарегистрироваться</a>
+            </li>
+          </ul>
+
+        </nav>
+        <a href="./cart.html">
+          <button class="shop_btn"></button>
+        </a>
+      </div>
     </div>
   </header>
+
   <section>
     <div class="container filter-con">
       <a class="header-bottom" href="#">Главная / </a>
@@ -65,7 +94,7 @@
             </p>
             <img class="icon-triangle triangle-bottom" src="./images/triangle-bottom-icon.svg" alt="triangle-bottom">
           </a> <br>
-          <a href="#">
+          <a class="link__clean__filter" href="#">
             <p class="clean-filter-txt">
               Clean filter
             </p>
