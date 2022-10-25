@@ -34,7 +34,7 @@
     margin-left: 500px;
 }
 
-.lorem-mens {
+/* .lorem-mens {
     font-weight: 400;
     font-size: 14px;
     line-height: 160%;
@@ -70,7 +70,6 @@
 }
 
 .box-first {
-    /* display: flex; */
     flex-direction: column;
     padding-top: 100px;
 }
@@ -93,7 +92,93 @@
 
 .box-second {
     padding-bottom: 40px;
+} */
+
+
+
+.book{
+    margin-bottom: 150px;
 }
+
+
+.book h1 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 140%;
+    text-align: center;
+    letter-spacing: 0.25px;
+    color: #000000;
+}
+
+.fbros {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 32px;
+    background-color: #fff;
+    flex-direction: row;
+    border-radius: 12px;
+}
+
+
+.tops h2 {
+    margin-top: 25px;
+    margin-left: 32px;
+    max-width: 512px;
+    height: 34px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 140%;
+    color: #040921;
+
+}
+
+.tops img {
+    margin-left: 30px;
+    margin-top: 71px;
+
+}
+
+.tops p {
+    /* margin-top: 71px; */
+    margin-left: 30px;
+    width: 754px;
+    height: 66px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 160%;
+    letter-spacing: 0.25px;
+    color: #000000;
+}
+
+.costss {
+    display: flex;
+    margin-right: 10px;
+    margin-left: 300px;
+    margin-top: -50px;
+}
+
+.page2 {
+    margin-left: 40px;
+}
+
+.next_page {
+    margin-left: 700px;
+}
+
+.inb{
+    margin-top: 100px;
+}
+
+
+
+
 
 .submit-delivery {
     text-decoration: none;
@@ -105,6 +190,7 @@
     text-transform: uppercase;
     color: #0D0D0D;
     padding: 18px 100px;
+    /* padding-bottom: 50px; */
     background-color: #FFC000;
     margin-left: 37%;    text-align: center;
 }
@@ -151,7 +237,7 @@
 .box-addtobasket {
     display: inline-block;
     border-radius: 12px;
-
+    text-align: center;
     background-color: white;
 }
 
@@ -169,7 +255,7 @@
 }
 
 .basket-button {
-    padding: 10px 64px;
+    padding: 10px 80px;
     font-weight: 600;
     display: inline-block;
     border-radius: 6px;

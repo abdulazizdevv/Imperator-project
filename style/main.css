@@ -42,12 +42,14 @@ header {
   font-weight: 700;
 }
 
-.ru {
+.ru a{
+  text-decoration: none;
   padding-top: 13px;
   color: #fff;
 }
 
-.uz {
+.uz a{
+  text-decoration: none;
   color: rgba(255, 255, 255, 0.3);
 }
 
