@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,19 +9,20 @@
   <link rel="stylesheet" href="./style/main.css">
   <link rel="stylesheet" href="./style/cart.css">
 </head>
+
 <body>
   <header class="header headr--open">
     <div class="main_header ">
-      <p class="ru container">RU <span class="uz container">UZB</span></p>
+      <p class="ru container"><a href="#"> RU </a><span class="uz container"><a href="#"> UZB</a></span></p>
     </div>
     <div class="navs">
       <div class="container header_container  ">
         <div class="logo_container">
           <button class="toggle"></button>
-          <a class="logomobile" href="#">
+          <a class="logomobile" href="./index.html">
             <img src="./images/flogo.png" alt="logo">
           </a>
-          <a class="logo" href="#">
+          <a class="logo" href="./index.html">
             <img class="logo_img" src="./images/MILANDI.png" alt="Pixer logo">
           </a>
         </div>
@@ -60,46 +62,59 @@
       </div>
     </div>
   </header>
-  <main>
+  <main class="hero">
     <section class="hero">
-      <div class="container response">
-        <div class="box-one box-first">
-          <img  class="hoodie-image" src="./images/image-mens-product-white.png" alt="hoodie-img">
-          <p class="hoodie-text">Худи мужская белая с принтом.</p>
-          <a href="#">
-            <img class="image-X" src="./images/X.png" alt="back">
-          </a>
-          <p class="lorem-mens">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget tellus purus, id pretium viverra rutrum. Et <br> blandit nunc a pellentesque in cras facilisis sapien, dictum. At vel egestas urna morbi tortor leo ut. In <br> curabitur at pretium vulputate in. Porta bibendum feugiat congue id rhoncus. Vel semper enim, eget.  </p>
-          <p class="inb money">25.000 Сум</p>
-          <p class="inb size-txt">
-            Size:
-          </p>
-          <p class="size-number inb">28</p>
-          <a class="mens-calc inb"href="#">
-            <img  src="./images/-+ mens.svg" alt="mens-product+-">
+      <div class="container book">
+        <h1>Ваш заказ</h1>
+        <div class="fbros">
+          <div>
+            <img src="./images/fbro.png" alt="bro">
+          </div>
+          <div class="tops">
+            <h2>Худи мужская белая с принтом.</h2>
+            <!-- <img src="./images/stop.png" alt="stop" width="24px" height="24px"> -->
+            <img src="./images/mark.png" alt="mark">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget tellus purus, id pretium viverra rutrum. Et
+              blandit nunc a pellentesque in cras facilisis sapien, dictum. At vel egestas urna morbi tortor leo ut. In
+              curabitur at pretium vulputate in. Porta bibendum feugiat congue id rhoncus. Vel semper enim, eget.</p>
+          </div>
+          <div class="costss">
+            <p>25.000 Сум</p>
+            <p class="page2">Size: 28</p>
+            <div class="next_page">
+              <img src="./images/one.png" alt="next page icon">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="hero">
+      <div class="container book">
+        <div class="fbros">
+          <div>
+            <img src="./images/fbro.png" alt="bro">
+          </div>
+          <div class="tops">
+            <h2>Худи мужская белая с принтом.</h2>
+            <!-- <img src="./images/stop.png" alt="stop" width="24px" height="24px"> -->
+            <img src="./images/mark.png" alt="mark">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget tellus purus, id pretium viverra rutrum. Et
+              blandit nunc a pellentesque in cras facilisis sapien, dictum. At vel egestas urna morbi tortor leo ut. In
+              curabitur at pretium vulputate in. Porta bibendum feugiat congue id rhoncus. Vel semper enim, eget.</p>
+          </div>
+          <div class="costss">
+            <p>25.000 Сум</p>
+            <p class="page2">Size: 28</p>
+            <div class="next_page">
+              <img src="./images/one.png" alt="next page icon">
+            </div>
+          </div>
+        </div>
+        <div class="container inb">
+          <a class=" submit-delivery" href="./checkout.html">
+            Оформить заказ
           </a>
         </div>
-        <div class="box-two box-second">
-          <img  class="hoodie-image" src="./images/image-mens-product-white.png" alt="hoodie-img">
-          <p class="hoodie-text">Худи мужская белая с принтом.</p>
-          <a href="#">
-            <img class="image-X" src="./images/X.png" alt="back">
-          </a>
-          <p class="lorem-mens">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget tellus purus, id pretium viverra rutrum. Et <br> blandit nunc a pellentesque in cras facilisis sapien, dictum. At vel egestas urna morbi tortor leo ut. In <br> curabitur at pretium vulputate in. Porta bibendum feugiat congue id rhoncus. Vel semper enim, eget.  </p>
-          <p class="inb money">25.000 Сум</p>
-          <p class="inb size-txt">
-            Size:
-          </p>
-          <p class="size-number inb">28</p>
-          <a class="mens-calc inb" href="./checkout.html">
-            <img  src="./images/-+ mens.svg" alt="mens-product+-">
-          </a>
-        </div>
-        <p class="inb total-price">Общая цена:</p>
-        <p class="inb total-price-number">50.000 Сум</p>
-        <a class="inb submit-delivery" href="./checkout.html">
-          Оформить заказ
-        </a>
       </div>
     </section>
     <section class="Similar-products-sec">
@@ -210,4 +225,5 @@
   </footer>
   <script src="./js/index.js"></script>
 </body>
+
 </html>
