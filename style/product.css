@@ -1,8 +1,5 @@
 @import "main.css";
-<<<<<<< HEAD
-=======
 @import "main.css";
->>>>>>> a09682f80364c4799bb0b0b5848a07438e3a2580
 * {
     font-family: 'Montserrat';
 }
@@ -128,14 +125,7 @@ h3 {
 }
 @media only screen and (max-width: 700px) {
     .post-1, .post-2, .post-3, .post-4 { 
-<<<<<<< HEAD
-        margin: auto;
-    }
-    .post-3 a, .post-4 a {
-        margin: auto;
-=======
         text-align: center;
->>>>>>> a09682f80364c4799bb0b0b5848a07438e3a2580
     }
     .post-1 {
         width: 350px;
@@ -148,17 +138,8 @@ h3 {
     .post-1 div {
         display: none;
     }
-<<<<<<< HEAD
-    .icons div {
-        width: 180px;
-        margin: 2px;
-    }
-    .post-2 {
-        width: 340px;
-=======
     .post-2 {
         width: 350px;
->>>>>>> a09682f80364c4799bb0b0b5848a07438e3a2580
         margin: 50px 0;
     }
 }
